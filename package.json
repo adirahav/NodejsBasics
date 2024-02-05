@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-basics",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "npm run rimraf node_modules",
+    "rimraf": "rimraf",
+    "dev": "nodemon simpleNodeServer/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "ms": "^2.1.3"
+  }
+}
